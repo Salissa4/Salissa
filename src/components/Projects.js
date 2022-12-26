@@ -1,6 +1,11 @@
-import { Container, Row, Col, Tab } from "react-bootstrap";
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from '../assets/images/color-sharp2';
+import projImg1 from '../assets/images/projImg1';
+import projImg2 from '../assets/images/projImg2';
+import projImg3 from '../assets/images/projImg3';
+import projImg4 from '../assets/images/projImg4';
+import projImg5 from '../assets/images/projImg5';
 
 export const Projects = () => {
     const projects = [
