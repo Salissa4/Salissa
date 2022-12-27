@@ -6,6 +6,8 @@ import projImg2 from '../assets/images/projImg2.png';
 import projImg3 from '../assets/images/projImg3.png';
 import projImg4 from '../assets/images/projImg4.png';
 import projImg5 from '../assets/images/projImg5.png';
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
     const projects = [
@@ -40,34 +42,39 @@ export const Projects = () => {
         <section className='project' id='project'>
             <Container>
                 <Row>
-                    <Col>
-                    <h2>Projects</h2>
-                    <Tab.Container id='project-tabs' defaultActiveKey='first'>
-                        <Nav variant='pills' className='nav-pills mb-5' justify-content-center align-items-center id='pills-tab'>
-                            <Nav.Item>
-                                <Nav.Link eventKey='first'>One</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey='second'>Two</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <Nav.Link eventKey='third'>Three</Nav.Link>
-                            </Nav.Item>
-                        </Nav>
-                        <Tab.Content>
-                            <Tab.Pane eventKey='first'>
-                                <Row>
-                                    {projects.map((project, index) => {
-                                        return (
-                                            <ProjectCard key={index}{...project}/>
-                                        )
-                                    })}
-                                </Row>
-                            </Tab.Pane>
-                            <Tab.Pane eventKey='second'>Coming Soon</Tab.Pane>
-                            <Tab.Pane eventKey='third'>Coming Soon</Tab.Pane>
-                        </Tab.Content>
-                    </Tab.Container>
+                    <Col size={12}>
+                        <TrackVisibility>
+                            {({isVisible}) => 
+                            <div className={isVisible ? 'animate__animated animate__fadeIn': ''}>
+                                <h2>Projects</h2>
+                                <Tab.Container id='project-tabs' defaultActiveKey='first'>
+                                    <Nav variant='pills' className='nav-pills mb-5' justify-content-center align-items-center id='pills-tab'>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey='first'>One</Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey='second'>Two</Nav.Link>
+                                        </Nav.Item>
+                                        <Nav.Item>
+                                            <Nav.Link eventKey='third'>Three</Nav.Link>
+                                        </Nav.Item>
+                                    </Nav>
+                                    <Tab.Content id='slideInUp' className={ isVisible ? "animate__animated animate__slideInUp" : ""}>
+                                        <Tab.Pane eventKey='first'>
+                                            <Row>
+                                                {projects.map((project, index) => {
+                                                    return (
+                                                        <ProjectCard key={index}{...project}/>
+                                                    )
+                                                })}
+                                            </Row>
+                                        </Tab.Pane>
+                                        <Tab.Pane eventKey='second'>Coming Soon</Tab.Pane>
+                                        <Tab.Pane eventKey='third'>Coming Soon</Tab.Pane>
+                                    </Tab.Content>
+                                </Tab.Container>
+                            </div>}
+                        </TrackVisibility>
                     </Col>
                 </Row>
             </Container>
