@@ -1,7 +1,7 @@
-import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { useState, useEffect } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
-import headerImg from '../assets/images/headerImg';
+import headerImg from '../assets/images/header-img.svg';
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -42,12 +42,12 @@ export const Banner = () => {
     }
 
     return (
-        <section className="banner" id="home">
+        <section className='banner' id='home'>
             <Container>
                 <Row className='align-item-center'>
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Welcome</span>
-                        <h1>{`Hi I'm webdecoded `}<span className="wrap">{text}</span></h1>
+                        <span className='tagline'>Welcome</span>
+                        <h1>{`Hi I'm webdecoded `}<span className='wrap'>{text}</span></h1>
                         <p>Salissa has over 10 years of experience streamlining operations and timelines to help organizations achieve KPI goals and maximize client satisfaction. She is an adaptable self-starter who takes initiative and facilitates collaboration, augments technical skill with creativity, and maintains attention to detail while focusing on the big picture.</p>
                         <button onClick={() => console.log('connect')}>Connect<ArrowRightCircle size={25}/></button>
                     </Col>

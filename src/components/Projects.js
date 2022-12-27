@@ -1,49 +1,49 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
-import colorSharp2 from '../assets/images/color-sharp2';
-import projImg1 from '../assets/images/projImg1';
-import projImg2 from '../assets/images/projImg2';
-import projImg3 from '../assets/images/projImg3';
-import projImg4 from '../assets/images/projImg4';
-import projImg5 from '../assets/images/projImg5';
+import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
+import { ProjectCard } from './ProjectCard';
+import colorSharp2 from '../assets/images/color-sharp2.png';
+import projImg1 from '../assets/images/projImg1.png';
+import projImg2 from '../assets/images/projImg2.png';
+import projImg3 from '../assets/images/projImg3.png';
+import projImg4 from '../assets/images/projImg4.png';
+import projImg5 from '../assets/images/projImg5.png';
 
 export const Projects = () => {
     const projects = [
         {
-            title: "Bored No Mo",
-            description: "Interactive front end application",
+            title: 'Bored No Mo',
+            description: 'Interactive front end application',
             imgUrl: projImg1,
         },
         {
-            title: "Gypsy",
-            description: "Full Stack Application",
+            title: 'Gypsy',
+            description: 'Full Stack Application',
             imgUrl: projImg2,
         },
         {
-            title: "Socializer",
+            title: 'Socializer',
             description: 'API for a social network',
             imgUrl: projImg3,
         },
         {
-            title: "NoteTaker",
+            title: 'NoteTaker',
             description: 'Express.js Back End App',
             imgUrl: projImg4,
         },
         {
-            title: "Team Profile Generator",
-            description: '',
+            title: 'Team Profile Generator',
+            description: 'OOP Team Profile Generator',
             imgUrl: projImg5,
         },
     ];
 
     return (
-        <section className="project" id="project">
+        <section className='project' id='project'>
             <Container>
                 <Row>
                     <Col>
                     <h2>Projects</h2>
                     <Tab.Container id='project-tabs' defaultActiveKey='first'>
-                        <Nav variant="pills" defaultActiveKey="/home">
+                        <Nav variant='pills' className='nav-pills mb-5' justify-content-center align-items-center id='pills-tab'>
                             <Nav.Item>
                                 <Nav.Link eventKey='first'>One</Nav.Link>
                             </Nav.Item>
@@ -71,7 +71,7 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-image-right" src={colorSharp2} alt=''></img>
+            <img className='background-image-right' src={colorSharp2} alt=''></img>
         </section>
     )
 }

@@ -1,9 +1,9 @@
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import meter1 from '../assets/images/meter1';
-import meter2 from '../assets/images/meter2';
-import colorSharp from '../assets/images/color-sharp';
+import meter1 from '../assets/images/meter1.svg';
+import meter2 from '../assets/images/meter2.svg';
+import colorSharp from '../assets/images/color-sharp.png';
 
 export const Skills = () => {
     const responsive = {
@@ -69,7 +69,7 @@ export const Skills = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className='background-image-left' src={colorSharp}/>
+            <img className='background-image-left' src={colorSharp} alt=''/>
         </section>
       )
 } 
