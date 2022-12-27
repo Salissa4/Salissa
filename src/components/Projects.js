@@ -48,7 +48,7 @@ export const Projects = () => {
                             <div className={isVisible ? 'animate__animated animate__fadeIn': ''}>
                                 <h2>Projects</h2>
                                 <Tab.Container id='project-tabs' defaultActiveKey='first'>
-                                    <Nav variant='pills' className='nav-pills mb-5' justify-content-center align-items-center id='pills-tab'>
+                                    <Nav variant='pills' className='nav-pills mb-5' id='pills-tab'>
                                         <Nav.Item>
                                             <Nav.Link eventKey='first'>One</Nav.Link>
                                         </Nav.Item>

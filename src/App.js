@@ -6,7 +6,7 @@ import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Footer } from './components/Footer';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <NavBar />
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+

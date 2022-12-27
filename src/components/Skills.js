@@ -8,7 +8,7 @@ import colorSharp from '../assets/images/color-sharp.png';
 export const Skills = () => {
     const responsive = {
         superLargeDesktop: {
-          // the naming can be any, depends on you.
+          // the naming can be any
           breakpoint: { max: 4000, min: 3000 },
           items: 5
         },
