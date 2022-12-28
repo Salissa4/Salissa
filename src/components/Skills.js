@@ -5,7 +5,7 @@ import meter1 from '../assets/images/meter1.svg';
 import meter2 from '../assets/images/meter2.svg';
 import colorSharp from '../assets/images/color-sharp.png';
 
-export const Skills = () => {
+export default function Skills () {
     const responsive = {
         superLargeDesktop: {
           // the naming can be any

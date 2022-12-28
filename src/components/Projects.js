@@ -9,7 +9,7 @@ import projImg5 from '../assets/images/projImg5.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Projects = () => {
+export default function Projects () {
     const projects = [
         {
             title: 'Bored No Mo',

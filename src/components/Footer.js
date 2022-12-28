@@ -3,7 +3,7 @@ import logo from '../assets/images/logo.png';
 import navIcon1 from '../assets/images/nav-icon1.svg';
 import navIcon2 from '../assets/images/nav-icon2.svg';
 
-export const Footer = () => {
+export default function Footer () {
     return (
         <footer className='footer'>
             <Container>

@@ -5,7 +5,7 @@ import headerImg from '../assets/images/header-img.svg';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Banner = () => {
+export default function Banner () {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
@@ -54,7 +54,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <TrackVisibility>
                         {({ isVisible }) => 
-                            <div className={ isVisible ? 'animate__animated animate__fadeIn' : ''}>
+                            <div className={ isVisible ? "animate__animated animate__fadeIn" : ""}>
                                 <span className='tagline'>Welcome</span>
                                 <h1>{`Salissa`}<span className='txt-rotate' dataPeriod='1000' data-rotate='[ "Technical Project Manager", "Web Developer"]'><span className='wrap'>{text}</span></span></h1>
                                 <p>Salissa has over 10 years of experience streamlining operations and timelines to help organizations achieve KPI goals and maximize client satisfaction. She is an adaptable self-starter who takes initiative and facilitates collaboration, augments technical skill with creativity, and maintains attention to detail while focusing on the big picture.</p>
