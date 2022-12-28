@@ -17,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-multi-carousel": "^2.8.2",
     "react-on-screen": "^2.1.1",
+    "react-pdf": "^6.2.1",
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.6.1",
     "react-router-hash-link": "^2.4.3",
@@ -48,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
