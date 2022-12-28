@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
+// import { Navbar, Nav, Container } from "react-bootstrap";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import { HashLink } from 'react-router-hash-link';
 import { BrowserRouter as Router } from "react-router-dom";
-import logo  from '../assets/images/logo.png';
+import sal2 from '../assets/images/sal2.svg';
 import navIcon1 from '../assets/images/nav-icon1.svg';
 import navIcon2 from '../assets/images/nav-icon2.svg';
 
@@ -31,11 +34,9 @@ export default function NavBar () {
 
   return (
     <Router>
-      <Navbar expand='md' className={scrolled ? 'scrolled' : ''}>
+      <Navbar expand='md' className={scrolled ? 'scrolled' : ''} >
         <Container>
-        <NavBar.Brand href='/'>
-          <img src={logo} alt='salissa'/>
-        </NavBar.Brand>
+        <img src={sal2} alt='salissa'/>
           <Navbar.Toggle aria-controls='basic-navbar-nav'>
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>
