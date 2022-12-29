@@ -10,7 +10,7 @@ export default function Banner () {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random()*100);
     const [index, setIndex] = useState(1);
-    const toRotate = [ ' Technical Project Manager', 'Software Engineer', 'Web Developer' ];
+    const toRotate = [ ' Technical Project Manager', 'Software Engineer', 'Full Stack Developer' ];
     const period = 2000;
 
     useEffect(() => {
@@ -55,7 +55,7 @@ export default function Banner () {
                         {({ isVisible }) => 
                             <div className={ isVisible ? "animate__animated animate__fadeIn" : ""}>
                                 <span className='tagline'>Welcome</span>
-                                <h1><span className='txt-rotate' dataPeriod='1000' data-rotate='[ "Technical Project Manager","Software Engineer", "Web Developer"]'><span className='wrap'>{text}</span></span></h1>
+                                <h1><span className='txt-rotate' dataPeriod='1000' data-rotate='[ "Technical Project Manager","Software Engineer", "Full Stack Developer"]'><span className='wrap'>{text}</span></span></h1>
                                 <p>Salissa has over 10 years of experience streamlining operations, managing projects, and timelines to help organizations achieve goals and maximize client satisfaction. She is an adaptable self-starter who takes initiative and facilitates collaboration, augments technical skill with creativity, and maintains attention to detail while focusing on the big picture.</p>
                             </div>}
                         </TrackVisibility>
