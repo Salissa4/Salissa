@@ -36,8 +36,9 @@ export default function NavBar () {
   return (
     <Router>
       <Navbar expand='md' className={scrolled ? 'scrolled' : ''} >
+        <img className='header-img'src={sal2} alt='salissa'/>
         <Container>
-        <img src={sal2} alt='salissa'/>
+    
           <Navbar.Toggle aria-controls='basic-navbar-nav'>
             <span className="navbar-toggler-icon"></span>
           </Navbar.Toggle>

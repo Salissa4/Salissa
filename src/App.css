@@ -82,6 +82,13 @@ p.danger {
 	color: red;
 }
 
+/***Header Img***/
+.header-img {
+  max-width: 20%;
+  padding-bottom: 90px;
+  height: auto;
+}
+
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
@@ -90,6 +97,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+  justify-content: space-between;
 }
 nav.navbar.scrolled {
   padding: 0px 0;
