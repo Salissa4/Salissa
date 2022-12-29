@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+// import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from '../assets/images/header-img.svg';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -58,7 +58,7 @@ export default function Banner () {
                                 <span className='tagline'>Welcome</span>
                                 <h1><span className='txt-rotate' dataPeriod='1000' data-rotate='[ "Technical Project Manager", "Web Developer"]'><span className='wrap'>{text}</span></span></h1>
                                 <p>Salissa has over 10 years of experience streamlining operations and timelines to help organizations achieve KPI goals and maximize client satisfaction. She is an adaptable self-starter who takes initiative and facilitates collaboration, augments technical skill with creativity, and maintains attention to detail while focusing on the big picture.</p>
-                                <button onClick={() => console.log('connect')}>Connect<ArrowRightCircle size={25}/></button>
+                                {/* <button onClick={() => console.log('connect')}>Connect<ArrowRightCircle size={25}/></button> */}
                             </div>}
                         </TrackVisibility>
                     </Col>
