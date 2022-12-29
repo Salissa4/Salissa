@@ -42,11 +42,11 @@ export default function Projects () {
             Live: 'https://murmuring-brook-69476.herokuapp.com/',
         },
         {
-            title: 'Team Profile Generator',
-            description: 'OOP Team Profile Generator',
+            title: 'JATE',
+            description: 'PWA',
             imgUrl: projImg5,
-            Github: 'https://github.com/Salissa4/Team-Profile-Generator',
-            Live: 'https://drive.google.com/file/d/1xt1VxOOBLF4myn_iY7OfrVdl3Q2HCNn1/view',
+            Github: 'https://github.com/Salissa4/TextEdit',
+            Live: 'https://calm-shelf-68858.herokuapp.com/',
         },
         {
             title: 'Tech Blog',
