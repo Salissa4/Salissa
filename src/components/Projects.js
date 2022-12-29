@@ -6,6 +6,7 @@ import projImg2 from '../assets/images/projImg2.png';
 import projImg3 from '../assets/images/projImg3.png';
 import projImg4 from '../assets/images/projImg4.png';
 import projImg5 from '../assets/images/projImg5.png';
+import projImg6 from '../assets/images/projImg6.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -15,26 +16,44 @@ export default function Projects () {
             title: 'Bored No Mo',
             description: 'Interactive front end application',
             imgUrl: projImg1,
+            Github: 'https://github.com/Salissa4/BoredNoMo',
+            Live: 'https://catpolk.github.io/Bored-NO-MO-project-1/',
         },
         {
             title: 'Gypsy',
             description: 'Full Stack Application',
             imgUrl: projImg2,
+            Github:'https://github.com/Salissa4/Gypsy',
+            Live: 'https://pure-peak-95833.herokuapp.com/'
+
         },
         {
             title: 'Socializer',
             description: 'API for a social network',
             imgUrl: projImg3,
+            Github: 'https://github.com/Salissa4/Socializer',
+            Live: 'https://drive.google.com/file/d/1hywBMTILHrNyFa_K2moq7xomBjJd1lbR/view',
         },
         {
             title: 'NoteTaker',
             description: 'Express.js Back End App',
             imgUrl: projImg4,
+            Github: 'https://github.com/Salissa4/NoteTaker',
+            Live: 'https://murmuring-brook-69476.herokuapp.com/',
         },
         {
             title: 'Team Profile Generator',
             description: 'OOP Team Profile Generator',
             imgUrl: projImg5,
+            Github: 'https://github.com/Salissa4/Team-Profile-Generator',
+            Live: 'https://drive.google.com/file/d/1xt1VxOOBLF4myn_iY7OfrVdl3Q2HCNn1/view',
+        },
+        {
+            title: 'Tech Blog',
+            description: 'Model View Controller',
+            imgUrl: projImg6,
+            Github: 'https://github.com/Salissa4/TechBlog',
+            Live: 'https://agile-everglades-05325.herokuapp.com/',
         },
     ];
 
