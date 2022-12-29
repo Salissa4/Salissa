@@ -46,12 +46,13 @@ export default function NavBar () {
               <Nav.Link href='#home' className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href='#skills' className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href={Pdf}className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Nav.Link>
             </Nav>
             <span className='navbar-text' >
               <div className='social-icon'>
               <a href='https://www.linkedin.com/in/salissah/'><img src={navIcon1} alt='linked in icon' /></a>
               <a href='https://github.com/Salissa4'><img src={git2} alt='github icon' /></a>
-              <a href={Pdf} target="_black"><img src={resume} alt='document'/></a>
+              {/* <a href={Pdf} target="_black"><img src={resume} alt='document'/></a> */}
               <a href="mailto:salissa4@gmail.com?"><img src={email} alt='envelope'/></a>
               </div>
             </span>
