@@ -84,8 +84,8 @@ p.danger {
 
 /***Header Img***/
 .header-img {
-  max-width: 20%;
-  padding-bottom: 90px;
+  max-width: 22%;
+  padding-bottom: 125px;
   height: auto;
 }
 
@@ -146,13 +146,13 @@ span.navbar-text {
     background-color: #ffffff;
     border-radius: 50%;
     transform: scale(0);
-	transition: 0.3s ease-in-out;
+	  transition: 0.3s ease-in-out;
 }
 .social-icon a:hover::before {
     transform: scale(1);
 }
 .social-icon a img {
-	width: 40%;
+	width: 50%;
 	z-index: 1;
 	transition: 0.3s ease-in-out;
 }
@@ -360,7 +360,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
   text-align: center;
 }
-.project p {
+/* .project p {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -368,7 +368,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
-}
+} */
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
@@ -407,9 +407,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
-.project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
-}
+
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
@@ -466,6 +464,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+.proj-link{
+  color:#fff;
+}
 .background-image-right {
   top: 20%;
   position: absolute;
@@ -487,6 +488,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer img {
   width: 26%;
 }
+
+.footer-social{
+  padding-top: 20px;
+}
+
 .footer p {
   font-weight: 400;
   font-size: 14px;
