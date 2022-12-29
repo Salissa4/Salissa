@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/Salissa/static/css/main.759aad5c.css",
-    "main.js": "/Salissa/static/js/main.417d9519.js",
+    "main.css": "/Salissa/static/css/main.fb783acf.css",
+    "main.js": "/Salissa/static/js/main.92a72e4a.js",
     "static/js/787.1ed0c42c.chunk.js": "/Salissa/static/js/787.1ed0c42c.chunk.js",
     "static/media/color-sharp.png": "/Salissa/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/Salissa/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/projImg3.png": "/Salissa/static/media/projImg3.c1ace6cdd60e5351bf2e.png",
-    "static/media/projImg5.png": "/Salissa/static/media/projImg5.9ece837852f17d1387f9.png",
     "static/media/projImg2.png": "/Salissa/static/media/projImg2.77002922d68b235629ba.png",
     "static/media/banner.png": "/Salissa/static/media/banner.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/Salissa/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
@@ -16,6 +15,8 @@
     "static/media/CentraNo2-Medium.ttf": "/Salissa/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/Salissa/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/SH.pdf": "/Salissa/static/media/SH.1e0fbb05323894bf572a.pdf",
+    "static/media/projImg5.png": "/Salissa/static/media/projImg5.39e4418fd763dc4d1696.png",
+    "static/media/projImg6.png": "/Salissa/static/media/projImg6.eed3c9310c8b3abde9bb.png",
     "static/media/revicons.eot": "/Salissa/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Salissa/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/Salissa/static/media/revicons.e8746a624ed098489406.woff",
@@ -24,12 +25,12 @@
     "static/media/meter2.svg": "/Salissa/static/media/meter2.2201f7e4df22bc4b08180210474f28cc.svg",
     "index.html": "/Salissa/index.html",
     "static/media/nav-icon1.svg": "/Salissa/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.759aad5c.css.map": "/Salissa/static/css/main.759aad5c.css.map",
-    "main.417d9519.js.map": "/Salissa/static/js/main.417d9519.js.map",
+    "main.fb783acf.css.map": "/Salissa/static/css/main.fb783acf.css.map",
+    "main.92a72e4a.js.map": "/Salissa/static/js/main.92a72e4a.js.map",
     "787.1ed0c42c.chunk.js.map": "/Salissa/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.759aad5c.css",
-    "static/js/main.417d9519.js"
+    "static/css/main.fb783acf.css",
+    "static/js/main.92a72e4a.js"
   ]
 }
