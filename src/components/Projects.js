@@ -1,12 +1,12 @@
 import { Container, Row, Col, Tab, Nav } from 'react-bootstrap';
 import { ProjectCard } from './ProjectCard';
 import colorSharp2 from '../assets/images/color-sharp2.png';
-import projImg1 from '../assets/images/projImg1.png';
-import projImg2 from '../assets/images/projImg2.png';
-import projImg3 from '../assets/images/projImg3.png';
-import projImg4 from '../assets/images/projImg4.png';
-import projImg5 from '../assets/images/projImg5.png';
-import projImg6 from '../assets/images/projImg6.png';
+import bored from '../assets/images/bored.png';
+import gypsy from '../assets/images/gypsy.png';
+import social from '../assets/images/social.png';
+import note from '../assets/images/note.png';
+import jate from '../assets/images/jate.png';
+import tech from '../assets/images/tech.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -15,14 +15,14 @@ export default function Projects () {
         {
             title: 'Bored No Mo',
             description: 'Interactive front end application',
-            imgUrl: projImg1,
+            imgUrl: bored,
             Github: 'https://github.com/Salissa4/BoredNoMo',
             Live: 'https://catpolk.github.io/Bored-NO-MO-project-1/',
         },
         {
             title: 'Gypsy',
             description: 'Full Stack Application',
-            imgUrl: projImg2,
+            imgUrl: gypsy,
             Github:'https://github.com/Salissa4/Gypsy',
             Live: 'https://pure-peak-95833.herokuapp.com/'
 
@@ -30,28 +30,28 @@ export default function Projects () {
         {
             title: 'Socializer',
             description: 'API for a social network',
-            imgUrl: projImg3,
+            imgUrl: social,
             Github: 'https://github.com/Salissa4/Socializer',
             Live: 'https://drive.google.com/file/d/1hywBMTILHrNyFa_K2moq7xomBjJd1lbR/view',
         },
         {
             title: 'NoteTaker',
             description: 'Express.js Back End App',
-            imgUrl: projImg4,
+            imgUrl: note,
             Github: 'https://github.com/Salissa4/NoteTaker',
             Live: 'https://murmuring-brook-69476.herokuapp.com/',
         },
         {
             title: 'JATE',
             description: 'PWA',
-            imgUrl: projImg5,
+            imgUrl: jate,
             Github: 'https://github.com/Salissa4/TextEdit',
             Live: 'https://calm-shelf-68858.herokuapp.com/',
         },
         {
             title: 'Tech Blog',
             description: 'Model View Controller',
-            imgUrl: projImg6,
+            imgUrl: tech,
             Github: 'https://github.com/Salissa4/TechBlog',
             Live: 'https://agile-everglades-05325.herokuapp.com/',
         },

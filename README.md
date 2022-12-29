@@ -1,8 +1,4 @@
-# Portfolio
-
-## Description
-
-Build a single page portfolio with React.
+# Professional Portfolio
 
 ## Table of Contents
 
@@ -16,7 +12,7 @@ Build a single page portfolio with React.
 
 ## Usage
 
-View on [Github Pages](https://salissa4.github.io/Salissa/) 
+View on [Salissa](https://salissa4.github.io/Salissa/) 
 
 ![Salissa](./src/assets/images/demo.png)
 
