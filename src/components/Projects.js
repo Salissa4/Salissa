@@ -6,12 +6,19 @@ import gypsy from '../assets/images/gypsy.png';
 import social from '../assets/images/social.png';
 import note from '../assets/images/note.png';
 import jate from '../assets/images/jate.png';
-import tech from '../assets/images/tech.png';
+import dead from '../assets/images/dead.png';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export default function Projects () {
     const projects = [
+        {
+            title: 'deadCoder',
+            description: 'MERN Full Stack Application',
+            imgUrl: dead,
+            Github: 'https://github.com/Salissa4/deadCoder',
+            Live: 'https://deadcoder.herokuapp.com/',
+        },
         {
             title: 'Bored No Mo',
             description: 'Interactive front end application',
@@ -47,13 +54,6 @@ export default function Projects () {
             imgUrl: jate,
             Github: 'https://github.com/Salissa4/TextEdit',
             Live: 'https://calm-shelf-68858.herokuapp.com/',
-        },
-        {
-            title: 'Tech Blog',
-            description: 'Model View Controller',
-            imgUrl: tech,
-            Github: 'https://github.com/Salissa4/TechBlog',
-            Live: 'https://agile-everglades-05325.herokuapp.com/',
         },
     ];
 

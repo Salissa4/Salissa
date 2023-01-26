@@ -37,32 +37,36 @@ export default function Skills () {
                             </h2>
                             <Carousel responsive={responsive} infinite={true} className='skill-slider'>
                                 <div className='item'>
-                                    <img src={meter1} alt='img' />
-                                    <h5>Web Development</h5>
+                                    <img src={meter2} alt='img' />
+                                    <h5>React</h5>
                                 </div>
                                 <div className='item'>
                                     <img src={meter1} alt='img' />
-                                    <h5>Leadership</h5>
+                                    <h5>MERN</h5>
                                 </div>
                                 <div className='item'>
                                     <img src={meter1} alt='img' />
-                                    <h5>Project Management</h5>
+                                    <h5>Javascript</h5>
+                                </div>
+                                <div className='item'>
+                                    <img src={meter1} alt='img' />
+                                    <h5>Node</h5>
+                                </div>
+                                <div className='item'>
+                                    <img src={meter1} alt='img' />
+                                    <h5>Express</h5>
+                                </div>
+                                <div className='item'>
+                                    <img src={meter1} alt='img' />
+                                    <h5>REST API</h5>
                                 </div>
                                 <div className='item'>
                                     <img src={meter2} alt='img' />
-                                    <h5>Process Improvement</h5>
-                                </div>
-                                <div className='item'>
-                                    <img src={meter1} alt='img' />
-                                    <h5>Strategic Planning</h5>
+                                    <h5>Graph QL</h5>
                                 </div>
                                 <div className='item'>
                                     <img src={meter2} alt='img' />
-                                    <h5>Client Relationship Management</h5>
-                                </div>
-                                <div className='item'>
-                                    <img src={meter2} alt='img' />
-                                    <h5>Spanish</h5>
+                                    <h5>MySQL</h5>
                                 </div>
                             </Carousel>
                         </div>
