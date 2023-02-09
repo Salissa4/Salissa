@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/Salissa/static/css/main.fcf02225.css",
-    "main.js": "/Salissa/static/js/main.9196c53b.js",
+    "main.js": "/Salissa/static/js/main.9f7be003.js",
     "static/js/787.1ed0c42c.chunk.js": "/Salissa/static/js/787.1ed0c42c.chunk.js",
     "static/media/color-sharp.png": "/Salissa/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/Salissa/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/dead.png": "/Salissa/static/media/dead.d7432a7513b08e19e728.png",
     "static/media/social.png": "/Salissa/static/media/social.3d4ddedc197d7733ebe8.png",
     "static/media/gypsy.png": "/Salissa/static/media/gypsy.b7b9782f16e590cf72a7.png",
     "static/media/banner.png": "/Salissa/static/media/banner.cc1273af450504afe755.png",
@@ -13,10 +14,9 @@
     "static/media/bored.png": "/Salissa/static/media/bored.9442efcf59799e212cf2.png",
     "static/media/CentraNo2-Bold.ttf": "/Salissa/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/Salissa/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/SH.pdf": "/Salissa/static/media/SH.b3918fb322f27cf9e3fe.pdf",
     "static/media/CentraNo2-Book.ttf": "/Salissa/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/jate.png": "/Salissa/static/media/jate.c517c56c895e4440e79d.png",
-    "static/media/tech.png": "/Salissa/static/media/tech.d6cb8b77861c9f4f6f37.png",
-    "static/media/SH.pdf": "/Salissa/static/media/SH.6cc0e42f6fc096f30567.pdf",
     "static/media/revicons.eot": "/Salissa/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Salissa/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/Salissa/static/media/revicons.e8746a624ed098489406.woff",
@@ -26,11 +26,11 @@
     "index.html": "/Salissa/index.html",
     "static/media/navimg.svg": "/Salissa/static/media/navimg.721d5414c26365f117e71d46b6641cb2.svg",
     "main.fcf02225.css.map": "/Salissa/static/css/main.fcf02225.css.map",
-    "main.9196c53b.js.map": "/Salissa/static/js/main.9196c53b.js.map",
+    "main.9f7be003.js.map": "/Salissa/static/js/main.9f7be003.js.map",
     "787.1ed0c42c.chunk.js.map": "/Salissa/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fcf02225.css",
-    "static/js/main.9196c53b.js"
+    "static/js/main.9f7be003.js"
   ]
 }
