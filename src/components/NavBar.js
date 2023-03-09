@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import sal2 from '../assets/images/sal2.svg';
 import navimg from '../assets/images/navimg.svg';
 import git from '../assets/images/git.png';
-import Pdf from '../assets/docs/SH.pdf';
+import Pdf from '../assets/docs/SH.Pdf';
 import email from '../assets/images/email.png'
 
 export default function NavBar () {
