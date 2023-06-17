@@ -17,7 +17,7 @@ export default function Projects () {
             description: 'MERN Full Stack Application',
             imgUrl: dead,
             Github: 'https://github.com/Salissa4/deadCoder',
-            Live: 'https://deadcoder.herokuapp.com/',
+            Live: 'https://deadcoder-db1047388a9e.herokuapp.com/',
         },
         {
             title: 'Bored No Mo',
@@ -31,7 +31,7 @@ export default function Projects () {
             description: 'Full Stack Application',
             imgUrl: gypsy,
             Github:'https://github.com/Salissa4/Gypsy',
-            Live: 'https://pure-peak-95833.herokuapp.com/'
+            Live: 'https://project-gypsy-63a683d8f4f7.herokuapp.com/'
 
         },
         {
