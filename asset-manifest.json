@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Salissa/static/css/main.1b1df892.css",
-    "main.js": "/Salissa/static/js/main.45ad8fb3.js",
+    "main.js": "/Salissa/static/js/main.b526abd6.js",
     "static/js/787.1ed0c42c.chunk.js": "/Salissa/static/js/787.1ed0c42c.chunk.js",
     "static/media/color-sharp.png": "/Salissa/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/Salissa/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -9,8 +9,8 @@
     "static/media/social.png": "/Salissa/static/media/social.3d4ddedc197d7733ebe8.png",
     "static/media/gypsy.png": "/Salissa/static/media/gypsy.b7b9782f16e590cf72a7.png",
     "static/media/banner.png": "/Salissa/static/media/banner.cc1273af450504afe755.png",
+    "static/media/SH.Pdf": "/Salissa/static/media/SH.f4ff7270922f903d8448.Pdf",
     "static/media/header-img.svg": "/Salissa/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
-    "static/media/SH.Pdf": "/Salissa/static/media/SH.eccbfb98bc2b2e750578.Pdf",
     "static/media/note.png": "/Salissa/static/media/note.5b9e1d90227a816119af.png",
     "static/media/bored.png": "/Salissa/static/media/bored.9442efcf59799e212cf2.png",
     "static/media/CentraNo2-Bold.ttf": "/Salissa/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -26,11 +26,11 @@
     "index.html": "/Salissa/index.html",
     "static/media/navimg.svg": "/Salissa/static/media/navimg.721d5414c26365f117e71d46b6641cb2.svg",
     "main.1b1df892.css.map": "/Salissa/static/css/main.1b1df892.css.map",
-    "main.45ad8fb3.js.map": "/Salissa/static/js/main.45ad8fb3.js.map",
+    "main.b526abd6.js.map": "/Salissa/static/js/main.b526abd6.js.map",
     "787.1ed0c42c.chunk.js.map": "/Salissa/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b1df892.css",
-    "static/js/main.45ad8fb3.js"
+    "static/js/main.b526abd6.js"
   ]
 }
