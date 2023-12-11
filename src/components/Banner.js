@@ -56,7 +56,7 @@ export default function Banner () {
                             <div className={ isVisible ? "animate__animated animate__fadeIn" : ""}>
                                 <span className='tagline'>Welcome</span>
                                 <h1><span className='txt-rotate' dataPeriod='1000' data-rotate='[ "Software Engineer", "Full Stack Developer"]'><span className='wrap'>{text}</span></span></h1>
-                                <p>Salissa is an enthusiastic and driven tech-savvy Full Stack Web Developer proficient in fundamental front-end languages and server-side languages. Dedicated to building and optimizing user-focused websites and applications. Technically proficient and analytical problem solver with a calm and focused demeanor.</p>
+                                <p>I am a dynamic and results-driven graduate student pursuing a Master of Science in Computer Science with a specialization in Artificial Intelligence. With a robust background in retail management and a proven track record of exceeding sales targets, seamlessly integrates technical proficiency with strategic planning. Proficient in Python and experienced in full-stack development, I am adept at MERN stack technologies, GraphQL, and database management. As a project lead, I have successfully overseen the development of user-focused applications, showcasing a talent for problem-solving and delivering high-quality solutions. Eager to bring a unique blend of technical expertise and leadership to innovative roles in technology.</p>
                             </div>}
                         </TrackVisibility>
                     </Col>
